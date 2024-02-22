@@ -1,0 +1,18 @@
+footer{
+    background-color: $foot-color;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+footer h2{
+    font-size: 60px;
+}
+.redes{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.redes img{
+    height: 70px;
+    padding: 0 15px;
+}

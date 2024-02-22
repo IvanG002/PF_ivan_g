@@ -1,0 +1,100 @@
+/* DESKTOP FIRST*/
+/* M E D I A   Q U E R Y   T I T U L O */
+@media(max-width: 650px){
+    .principal{
+        height: 150px;
+    }
+    .principal h1{
+        font-size: 45px;
+    }
+}
+/* M E D I A   Q U E R Y   F O O T E R */
+@media(max-width: 650px){
+    footer h2{
+        font-size: 30px;
+    }
+    .redes img{
+        height: 30px;
+    }
+}
+/* M E D I A   Q U E R Y   P R I N C I P A L */
+@media (min-width:651px) and (max-width: 1000px){
+    .jugador1 img,
+    .jugador2 img{
+        width: 75%;
+        height: 100%;
+        max-height: 500px;
+    }
+    .description{
+        font-size: 25px;
+        padding: 25px;
+    }
+}
+@media (max-width:650px){
+    .jugador1 img,
+    .jugador2 img{
+        width: 75%;
+        height: 100%;
+        max-height: 300px;
+    }
+    .description{
+        font-size: 13px;
+        padding: 25px;
+    }
+}
+/* M E D I A   Q U E R Y   C O N T A C T O */
+@media(max-width: 650px){
+    .contacto{
+        display: block;
+        input{
+            margin: 15px 0;
+        }
+    }
+    .cont-form{
+        margin: 20px;
+    }
+}
+/* M E D I A   Q U E R Y   E S T A D I S T I C A S */
+@media(max-width: 650px){
+    .stats{
+        gap:50px
+    }
+    .subtitle-1,
+    .subtitle-2{
+        font-size: 50px;
+    }
+    .sectitle{
+        font-size: 30px;
+    }
+    .list-stats{
+        font-size: 20px;
+    }
+}
+/* M E D I A   Q U E R Y   P A R T I D O S */
+@media(max-width: 650px){
+    .partidos span{
+        gap:30px;
+    }
+    .resultados-1 .subtitle-2,
+    .resultados-2 .subtitle-2{
+        font-size: 50px;
+    }
+}
+/* M E D I A   Q U E R Y   M O M E N T O S */
+@media(max-width: 650px){
+    .galeria{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(5, 1fr);
+        grid-template-areas: 'a5 a3'
+                             'a4 a4'
+                             'a1 a7'
+                             'a1 a2'
+                             'a6 a6';
+    }
+}
+/* M E D I A   Q U E R Y   J U G A D O R E S */
+@media(max-width: 800px){
+    .card{
+        width: 250px;
+    }
+}

@@ -1,0 +1,31 @@
+.resultados-1{
+    background-color: $main-color1;
+}
+.resultados-2{
+    background-color: $main-color2;
+}
+.final{
+    background-color: rgb(255, 196, 0);
+}
+.banderas{
+    object-fit: cover;
+    width: 100%;
+    border: 3px solid white;
+    border-radius: 3px;
+}
+.seleccion{
+    width: 30%;
+    margin-top: 50px;
+    text-align: center;
+}
+.partidos span{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    font-size: 50px;
+}
+.paises, .resultados{
+    color: $main-color3;
+}

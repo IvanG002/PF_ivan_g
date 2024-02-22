@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+//BASE
+@import"base/vars";
+@import"base/reset";
+//COMPONENTS
+@import"components/footer";
+@import"components/navbar";
+@import"components/title";
+//LAYOUT
+@import"layout/contacto";
+@import"layout/estadisticas";
+@import"layout/index";
+@import"layout/jugadores";
+@import"layout/mediaqueries";
+@import"layout/momentos";
+@import"layout/partidos";
