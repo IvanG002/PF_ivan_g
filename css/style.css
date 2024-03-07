@@ -178,16 +178,16 @@ header nav,
 .contenedor {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   gap: 40px;
   justify-content: center;
-  align-items: center;
 }
 
 .jugador1, .jugador2 {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
   align-items: center;
+  justify-content: space-around;
   color: rgb(238, 238, 238);
 }
 
@@ -294,7 +294,7 @@ header nav,
 }
 
 .final {
-  background-color: rgb(255, 196, 0);
+  background-color: rgb(201, 154, 0);
 }
 
 .banderas {
@@ -324,7 +324,11 @@ header nav,
 }
 
 .resultados {
-  font-size: 40px;
+  font-size: 50px;
+}
+
+.paises {
+  font-size: 50px;
 }
 
 /* DESKTOP FIRST*/
@@ -410,6 +414,9 @@ header nav,
   }
   .resultados {
     font-size: 23px;
+  }
+  .paises {
+    font-size: 20px;
   }
 }
 /* M E D I A   Q U E R Y   M O M E N T O S */

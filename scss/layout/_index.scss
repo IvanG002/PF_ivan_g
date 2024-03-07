@@ -1,15 +1,16 @@
-.contenedor{
+@mixin props-flex(){
     display: flex;
     flex-wrap: wrap;
-    gap: 40px;
-    justify-content: center;
     align-items: center;
 }
+.contenedor{
+    @include props-flex();    
+    gap: 40px;
+    justify-content: center;
+}
 .jugador1, .jugador2{
-    display: flex;
-    flex-wrap: wrap;
+    @include props-flex();
     justify-content: space-around;
-    align-items: center;
     color: $font-color;
 }
 .jugador1{
