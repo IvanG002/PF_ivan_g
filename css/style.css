@@ -234,6 +234,90 @@ header nav,
   gap: 0;
 }
 
+.galeria {
+  padding: 30px 10px;
+  background-color: #121212;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 15px;
+  grid-template-areas: "a1 a3 a4" "a1 a7 a5" "a1 a7 a5" "a6 a2 a5 ";
+}
+
+.fotogaleria {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+  padding: 5px;
+}
+
+.a1 {
+  grid-area: a1;
+}
+
+.a2 {
+  grid-area: a2;
+}
+
+.a3 {
+  grid-area: a3;
+}
+
+.a4 {
+  grid-area: a4;
+}
+
+.a5 {
+  grid-area: a5;
+}
+
+.a6 {
+  grid-area: a6;
+}
+
+.a7 {
+  grid-area: a7;
+}
+
+.resultados-1 {
+  background-color: #121212;
+}
+
+.resultados-2 {
+  background-color: #01a5e6;
+}
+
+.final {
+  background-color: rgb(255, 196, 0);
+}
+
+.banderas {
+  object-fit: cover;
+  width: 100%;
+  border: 3px solid white;
+  border-radius: 3px;
+}
+
+.seleccion {
+  width: 30%;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.partidos span {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  font-size: 50px;
+}
+
+.paises, .resultados {
+  color: rgb(240, 248, 255);
+}
+
 /* DESKTOP FIRST*/
 /* M E D I A   Q U E R Y   T I T U L O */
 @media (max-width: 650px) {
@@ -329,89 +413,6 @@ header nav,
   .card {
     width: 250px;
   }
-}
-.galeria {
-  padding: 30px 10px;
-  background-color: #121212;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(4, 1fr);
-  gap: 15px;
-  grid-template-areas: "a1 a3 a4" "a1 a7 a5" "a1 a7 a5" "a6 a2 a5 ";
-}
-
-.fotogaleria {
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-  border-radius: 25px;
-  padding: 5px;
-}
-
-.a1 {
-  grid-area: a1;
-}
-
-.a2 {
-  grid-area: a2;
-}
-
-.a3 {
-  grid-area: a3;
-}
-
-.a4 {
-  grid-area: a4;
-}
-
-.a5 {
-  grid-area: a5;
-}
-
-.a6 {
-  grid-area: a6;
-}
-
-.a7 {
-  grid-area: a7;
-}
-
-.resultados-1 {
-  background-color: #121212;
-}
-
-.resultados-2 {
-  background-color: #01a5e6;
-}
-
-.final {
-  background-color: rgb(255, 196, 0);
-}
-
-.banderas {
-  object-fit: cover;
-  width: 100%;
-  border: 3px solid white;
-  border-radius: 3px;
-}
-
-.seleccion {
-  width: 30%;
-  margin-top: 50px;
-  text-align: center;
-}
-
-.partidos span {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  gap: 50px;
-  font-size: 50px;
-}
-
-.paises, .resultados {
-  color: rgb(240, 248, 255);
 }
 
 /*# sourceMappingURL=style.css.map */
