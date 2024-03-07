@@ -16,6 +16,9 @@
                         'b2 b2 b3'
                         'b4 b4 b4';
 }
+.descripcion{
+   resize: none;
+}
 @mixin insercion-datos(){
    padding:10px;
    width: 100%;

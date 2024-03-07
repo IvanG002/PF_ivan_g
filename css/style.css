@@ -93,6 +93,10 @@ header nav,
   grid-template-areas: "b1 b1 b1" "b2 b2 b3" "b4 b4 b4";
 }
 
+.descripcion {
+  resize: none;
+}
+
 .datos input,
 .datos textarea {
   padding: 10px;
