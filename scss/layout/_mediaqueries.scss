@@ -73,11 +73,14 @@
 /* M E D I A   Q U E R Y   P A R T I D O S */
 @media(max-width: 650px){
     .partidos span{
-        gap:30px;
+        gap:20px;
     }
     .resultados-1 .subtitle-2,
     .resultados-2 .subtitle-2{
         font-size: 50px;
+    }
+    .resultados{
+        font-size: 23px;
     }
 }
 /* M E D I A   Q U E R Y   M O M E N T O S */
