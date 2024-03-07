@@ -10,5 +10,6 @@ La creación de este sitio web es para capturar los momentos de la selección ar
 
 ## ¿Cómo logré crear el sitio web?
 La creación de este sitio, fue durante mi cursada virtual en Coderhouse, donde aprendí desde cero la creación del sitio, utilizando HTML y CSS.
+
 <img src="https://upload.wikimedia.org/wikipedia/commons/7/75/Logo_blackbg.png" height="100">
 
